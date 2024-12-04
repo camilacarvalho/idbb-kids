@@ -1,0 +1,116 @@
+@import url(general.css);
+@import url(section.css);
+@import url(custom.css);
+
+.init {
+	gap: 2.5rem;
+}
+
+.init p {
+	font-size: 1.5rem;
+}
+
+.init div {
+	flex-basis: 260px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.init img {
+	flex-basis: 260px;
+	max-width: 25.25rem;
+}
+
+.general-instructions {
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+.instructions-for-auxiliary, .magazines {
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 50px;
+}
+
+.closure {
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+}
+
+.instructions-for-auxiliary > div, .magazines > div, .instructions-for-teacher > div {
+	display: flex;
+	gap: 50px;
+	max-width: 1200px;
+	flex-wrap: wrap;
+}
+
+.instructions-for-auxiliary > div > div , .magazines > div > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	flex: 1 0 260px;
+}
+
+.instructions-for-auxiliary img {
+	max-width: 100px;
+}
+
+.magazines > div > div > div{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+}
+
+.magazines img, .closure img {
+	max-width: 290px;
+}
+
+.closure p {
+	display: flex;
+	max-width: 1200px;
+}
+
+.calendar {
+	align-items: start;
+	gap: 10px;
+}
+
+.calendar > div {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 50px;
+	justify-content: space-around;
+}
+
+.calendar img {
+	flex-basis: 260px;
+	max-width: 20.25rem;
+}
+
+.instructions-for-teacher img {
+	max-width: 20.25rem;
+}
+
+.instructions-for-teacher > div > div > div {
+	justify-content: center;
+	display: flex;
+}
+
+.instructions-for-teacher > div > div{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex: 1 1 350px;
+	gap: 20px
+}
+
+.instructions-for-teacher {
+	gap: 50px;
+}

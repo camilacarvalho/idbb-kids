@@ -1,0 +1,54 @@
+html {
+	font-size: 22px;
+}
+
+@media (max-width: 1440px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+	html {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 16px; /* Ajuste para tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 14px; /* Ajuste para smartphones */
+    }
+}
+
+body, h1, h2, p, ul, li, a {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "Quicksand", Helvetica, Arial, sans-serif;
+	color: #222222;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}

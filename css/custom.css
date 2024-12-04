@@ -1,0 +1,23 @@
+li::before {
+	content: "";
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background-color: #EB0994;
+	margin-right: 5px;
+}
+
+h1, h2 {
+	font-family: "DynaPuff", system-ui;
+}
+
+p, li {
+	font-family: "Quicksand", sans-serif;
+	font-weight: 400;
+}
+
+p.bold {
+	font-family: "Quicksand", sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}

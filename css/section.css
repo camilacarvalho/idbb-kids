@@ -1,0 +1,33 @@
+section:nth-child(3n+1) {
+	background-color: #68CFB7;
+}
+
+section:nth-child(3n+2) {
+	background-color: #F4C92F;
+}
+
+section:nth-child(3n+3) {
+	background-color: #FFC2B2
+}
+
+section {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 3rem;
+}
+
+section h2 {
+	font-size: 2.625rem;
+}
+
+section h1 {
+	color: white;
+	font-size: 4.5rem;
+}
+
+section p, section li {
+	font-size: 1.3rem;
+}
