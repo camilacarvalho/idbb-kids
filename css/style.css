@@ -105,8 +105,7 @@
 
 .instructions-for-teacher > div > div{
 	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
+	flex-flow: column wrap;
 	flex: 1 1 350px;
 	gap: 20px
 }
